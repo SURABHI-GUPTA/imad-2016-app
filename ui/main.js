@@ -2,6 +2,9 @@ console.log('Loaded!');
 
 //move the image
 var img=document.getElementById("img");
+function moveRight(){
+    marginLeft=MarginLeft+1;
+}
 img.onclick = function(){
-  img.style.marginLeft="100px";
+  var interval= setInterval(moveRight,10);
 };
