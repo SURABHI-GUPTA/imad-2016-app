@@ -1,22 +1,3 @@
-body {
-    font-family: sans-serif;
-    background-color: lightyellow;
-    margin-top: 75px;
+body{
+    font-family: "Arial";
 }
-
-.center {
-    text-align: center;
-}
-
-.text-big {
-    font-size: 200%;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
-
