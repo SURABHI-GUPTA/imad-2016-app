@@ -157,6 +157,13 @@ a{
     margin: 2% 0;
 }
 
+
+iframe{
+    position: absolute;
+    top: 263%;
+    left: 69.5%;
+}
+
 .mainFooter p{
     width: 92%;
     margin: 10px auto;
@@ -223,8 +230,3 @@ a{
 }  
 }
 
-iframe{
-    position: absolute;
-    top: 263%;
-    left: 69.5%;
-}
