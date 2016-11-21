@@ -146,6 +146,22 @@ a{
     margin-bottom: 2%;
     padding: 2% 3%;
 }
+
+.login{
+    position: absolute;
+    top: 220%;
+    left: 66.5%;
+    width: 19.5%;
+    float: right;
+    background-color: #FFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    padding: 2% 3%;
+}
+
 .mainFooter{
     width: 100%;
     height: 40px;
