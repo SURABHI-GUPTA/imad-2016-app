@@ -72,7 +72,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/ui/log.png', function (req, res) {
-res.sendFile(path.join(__dirname, 'ui', req.params.log.png));
+res.sendFile(path.join(__dirname, 'ui', 'log.png'));
 });
 
 function hash (input, salt) {
