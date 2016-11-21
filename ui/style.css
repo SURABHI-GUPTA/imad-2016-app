@@ -148,6 +148,7 @@ a{
 }
 
 .login{
+    text-align: center;
     position: absolute;
     top: 260%;
     left: 66.5%;
@@ -159,7 +160,7 @@ a{
     border-radius: 5px;
     margin-left: 3%;
     margin-bottom: 2%;
-    padding: 0.8% 3%;
+    padding: 0.5% 3%;
 }
 
 .mainFooter{
