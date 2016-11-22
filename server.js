@@ -94,6 +94,11 @@ res.sendFile(path.join(__dirname, 'ui', 'parlia.png'));
 app.get('/ui/rg.png', function (req, res) {
 res.sendFile(path.join(__dirname, 'ui', 'rg.png'));
 });
+
+app.get('/ui/in.png', function (req, res) {
+res.sendFile(path.join(__dirname, 'ui', 'in.png'));
+});
+
 function hash (input, salt) {
     // How do we create a hash?
     var hashed = crypto.pbkdf2Sync(input, salt, 10000, 512, 'sha512');
