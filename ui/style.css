@@ -67,6 +67,11 @@ a{
     border-radius: 5px;
 }
 
+#Social{
+    position: absolute;
+    top: 20%;
+}
+
 .mainContent{
     line-height: 25px;
     -moz-border-radius: 5px;
