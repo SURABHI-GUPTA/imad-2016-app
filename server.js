@@ -173,7 +173,7 @@ app.get('/check-login', function (req, res) {
 
 app.get('/logout', function (req, res) {
    delete req.session.auth;
-   res.send('<html><body style=background-color:  #efebeb;color: #666;font-size: 87.5%;font-family:Arial;line-height: 1.5;">You are successfully logged out!<br/><br/><a href="/">Back to home</a></body></html>');
+   res.send('<html><body style="background-color:  #efebeb;color: #666;font-size: 87.5%;font-family:Arial;line-height: 1.5;">You are successfully logged out!<br/><br/><a href="/">Back to home</a></body></html>');
 });
 
 var pool = new Pool(config);
