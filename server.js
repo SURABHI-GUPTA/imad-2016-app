@@ -262,16 +262,7 @@ app.listen(8080, function () {
 
 
 
-var Pool=require('pg').Pool;
 
-var config={
-    user: 'surabhi-gupta',
-    database: 'surabhi-gupta',
-    host: 'db.imad.hasura-app.io',
-    port: '5432',
-    password: process.env.DB_PASSWORD
-    
-};
 
 
 
