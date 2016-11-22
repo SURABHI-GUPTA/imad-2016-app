@@ -1,7 +1,7 @@
 function loadLoginForm () {
     var loginHtml = `
         <input type="text" id="username" placeholder="username" />
-        <input type="password" id="password" placeholder="password" /
+        <input type="password" id="password" placeholder="password" />
         </br></br>
         <input type="submit" id="login_btn" value="Login" />
         <input type="submit" id="register_btn" value="Register" />
