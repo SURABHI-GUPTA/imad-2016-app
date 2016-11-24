@@ -99,8 +99,8 @@ app.get('/ui/in.png', function (req, res) {
 res.sendFile(path.join(__dirname, 'ui', 'in.png'));
 });
 
-app.get('/ui/surabhi.png', function (req, res) {
-res.sendFile(path.join(__dirname, 'ui', 'surabhi.png'));
+app.get('/ui/surabhi.jpg', function (req, res) {
+res.sendFile(path.join(__dirname, 'ui', 'surabhi.jpg'));
 });
 
 function hash (input, salt) {
