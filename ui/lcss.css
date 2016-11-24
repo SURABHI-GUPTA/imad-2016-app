@@ -10,6 +10,7 @@ html, body {
  
 #login_area {
  position: fixed;
+ text-align: center;
  width: 370px;
  height: 310px;
  top: 50%;
