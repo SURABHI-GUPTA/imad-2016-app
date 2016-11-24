@@ -124,7 +124,7 @@ input[type=checkbox] {
 }
  
 input[type=submit] {
- float: none;
+ float: right;
  margin-right: 20px;
  margin-top: 20px;
  width: 100px;
