@@ -65,7 +65,7 @@ p a:hover {
  color: #555;
 }
  
-input {
+input:focus {
  font-family: "Helvetica Neue", Helvetica, sans-serif;
  font-size: 12px;
  outline: none;
