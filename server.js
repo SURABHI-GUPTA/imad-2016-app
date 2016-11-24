@@ -99,6 +99,10 @@ app.get('/ui/in.png', function (req, res) {
 res.sendFile(path.join(__dirname, 'ui', 'in.png'));
 });
 
+app.get('/ui/surabhi.png', function (req, res) {
+res.sendFile(path.join(__dirname, 'ui', 'surabhi.png'));
+});
+
 function hash (input, salt) {
     // How do we create a hash?
     var hashed = crypto.pbkdf2Sync(input, salt, 10000, 512, 'sha512');
