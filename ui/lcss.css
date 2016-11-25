@@ -63,7 +63,7 @@ p a {
 }
  
 p a:hover {
- color: #555;
+ color: #FFF;
 }
  
 input:focus {
@@ -74,7 +74,7 @@ input:focus {
  
 input[type=text],
 input[type=password] {
- color: #777;
+ color: #666;
  padding-left: 10px;
  margin: 10px;
  margin-top: 12px;
