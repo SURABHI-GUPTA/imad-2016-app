@@ -1,6 +1,6 @@
 function loadLoginForm () {
    var loginHtml = ` 
-         
+            <h2> Log In / Sign Up</h2></hr>
             <label for="username">Username:</label>
              
             <input type="text" id="username" name="username" placeholder="Your Username">
