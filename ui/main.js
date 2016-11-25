@@ -1,5 +1,18 @@
 function loadLoginForm () {
-    
+   var loginHtml = ` 
+         
+            <label for="username">Username:</label>
+             
+            <input type="text" id="username" placeholder="Your Username">
+             
+            <label for="password">Password:</label>
+             
+            <input type="password" id="password" placeholder="Your Password">
+             
+            <input type="submit" id="login_btn" value="Login" />
+            <input type="submit" id="register_btn" value="Register"/>';
+         
+        
     // Submit username/password to login
     var submit = document.getElementById('login_btn');
     submit.onclick = function () {
