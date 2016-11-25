@@ -44,7 +44,8 @@ form {
 }
  
 label {
- color: #555;
+ text-align: left;
+ color: #FFF;
  display: inline-block;
  margin-left: 18px;
  padding-top: 10px;
