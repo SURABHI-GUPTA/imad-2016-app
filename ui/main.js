@@ -10,7 +10,7 @@ function loadLoginForm () {
             <input type="password" id="password" placeholder="Your Password">
              
             <input type="submit" id="login_btn" value="Login" />
-            <input type="submit" id="register_btn" value="Register"/>';
+            <input type="submit" id="register_btn" value="Register"/> `;
             
      document.getElementById('login_area').innerHTML = loginHtml;    
         
