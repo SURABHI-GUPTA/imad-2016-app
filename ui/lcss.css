@@ -44,7 +44,7 @@ form {
 }
  
 label {
- float: left;
+ float: none;
  color: #666;
  display: inline-block;
  margin-left: 18px;
