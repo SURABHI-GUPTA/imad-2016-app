@@ -44,7 +44,7 @@ form {
 }
  
 label {
- text-align: left;
+ float: left;
  color: #666;
  display: inline-block;
  margin-left: 18px;
@@ -103,7 +103,7 @@ input[type=password]:focus {
 }
  
 input[type=submit] {
- margin-right: 15px;
+ margin-right: 10px;
  margin-top: 20px;
  width: 100px;
  height: 30px;
