@@ -11,8 +11,8 @@ html, body {
 #login_area {
  position: fixed;
  text-align: center;
- width: 370px;
- height: 310px;
+ width: 400px;
+ height: 350px;
  top: 50%;
  left: 50%;
  margin-top: -140px;
