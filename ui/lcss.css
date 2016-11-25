@@ -4,7 +4,7 @@ html, body {
  font-family: "Helvetica Neue", Helvetica, sans-serif;
  color:  #666;
  -webkit-font-smoothing: antialiased;
- background: #FFF;
+ background: #efebeb;
   
 }
  
@@ -109,7 +109,7 @@ input[type=submit] {
  font-size: 14px;
  font-weight: bold;
  color: #fff;
- background-color: #acd6ef; /*IE fallback*/
+ background-color: #666; /*IE fallback*/
  -webkit-gradient: linear, left top, left bottom, from(#acd6ef), to(#6ec2e8);
  -moz-linear-gradient: top left 90deg, #acd6ef 0, #6ec2e8 100%;
  -linear-gradient: top left 90deg, #acd6ef 0, #6ec2e8 100%;
