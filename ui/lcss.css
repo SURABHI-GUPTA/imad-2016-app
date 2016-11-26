@@ -8,7 +8,7 @@ html, body {
   
 }
  
-#login_area {
+#login_area,#articles {
  position: fixed;
  text-align: center;
  width: 400px;
