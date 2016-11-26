@@ -94,7 +94,6 @@ function loadLoggedInUser (username) {
         <center>Loading articles...</center>
         </div> 
     `;
-    var articles = document.getElementById('articles');
 }
 
 function loadLogin () {
