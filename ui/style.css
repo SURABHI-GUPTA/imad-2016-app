@@ -78,7 +78,7 @@ a{
     -moz-border-radius: 5px;
     -webkit-border-radius:5px;
     border-radius: 5px;
-    overflow: hidden;
+    
 }
 
 .content{
@@ -104,7 +104,7 @@ a{
     -webkit-border-radius: 5px;
     border-radius: 5px;
     padding: 3% 5%;
-    margin-top: 4%;
+    margin-top: 2%;
     -moz-box-shadow:    inset 0 0 10px #000000;
     -webkit-box-shadow: inset 0 0 10px #000000;
     box-shadow:         inset 0 0 10px #000000;
@@ -117,15 +117,13 @@ a{
 }
 
 .top-sidebar{
-    position: absolute;
-    top: 61%;
-    left: 66.5%;
-    width: 19.5%;
+    width: 27%;
     float: left;
     background-color: #FFF;
     -moz-border-radius: 5px;
     -webkit-bo8der-radius: 5px;
     border-radius: 5px;
+    margin-left: 3%;
     margin:2% 0 2% 3%;
     padding: 2% 3%;
     -moz-box-shadow:    inset 0 0 10px #000000;
@@ -134,11 +132,8 @@ a{
 }
 
 .middle-sidebar{
-    position: absolute;
-    top: 129%;
-    left: 66.5%;
-    width: 19.5%;
-    float: right;
+    width: 27%;
+    float: left;
     background-color: #FFF;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -152,11 +147,8 @@ a{
 }
 
 .bottom-sidebar{
-    position: absolute;
-    top: 192%;
-    left: 66.5%;
-    width: 19.5%;
-    float: right;
+    width: 27%;
+    float: left;
     background-color: #FFF;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
