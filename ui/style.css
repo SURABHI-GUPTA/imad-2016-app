@@ -27,6 +27,13 @@ a:hover, a:active{
   background-color: #FFF;
 }
 
+.side{
+ position: absolute;
+ top:1%;left: 2%;color:#FFF ;width: 84%; height:20px; float: left;background-color: #666;
+ -moz-border-radius: 5px;-webkit-bo8der-radius: 5px;border-radius: 5px;
+ margin:2% 0 2% 3%;padding: 1% 3%; box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.30)   
+}
+
 .mainHeader img{
     width: 30%;
     height: auto;
