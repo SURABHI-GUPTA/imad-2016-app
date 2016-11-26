@@ -241,6 +241,10 @@ body{
     width: 94%;
     margin:2% 0 2% 0;
     padding: 2% 3%;
-}  
+} 
+
+.mainFooter{
+    width: 100%;
+}
 }
 
