@@ -190,6 +190,10 @@ body{
     font-size: 95%;
 }
 
+.side{
+    height: 60px;
+}
+
 .mainHeader img{
     width: 100%;
 }
