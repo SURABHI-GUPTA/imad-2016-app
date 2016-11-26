@@ -75,6 +75,7 @@ a:hover, a:active{
 
 #Social{
     position: absolute;
+    top:5.999;
     left:70%;
 }
 
