@@ -10,6 +10,12 @@ a{
     text-decoration: none;
 }
 
+a:link, a:visited{
+    color: #CF5C3F;
+}
+a:hover, a:active{
+    color: #CF5C3F;
+}
 .body{
     margin: 0 auto;
     width: 90%;
@@ -160,25 +166,6 @@ a{
     box-shadow:         inset 0 0 10px #000000;
 }
 
-.login{
-    text-align: center;
-    position: absolute;
-    top: 255%;
-    left: 66.5%;
-    width: 19.5%;
-    float: right;
-    background-color: #FFF;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    margin-left: 3%;
-    margin-bottom: 2%;
-    padding: 0.5% 3%;
-    -moz-box-shadow:    inset 0 0 10px #000000;
-    -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow:  inset 0 0 10px #000000;
-}
-
 .mainFooter{
     width: 100%;
     height: 40px;
@@ -188,13 +175,6 @@ a{
     border-radius: 5px;
     background-color: #666;
     margin: 2% 0;
-}
-
-
-iframe{
-    position: absolute;
-    top: 263%;
-    left: 69.5%;
 }
 
 .mainFooter p{
