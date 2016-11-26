@@ -103,7 +103,7 @@ input[type=password]:focus {
  
 input[type=submit] {
  position: absolute;
- left: 20px;
+ left: 60px;
  margin-right: 10px;
  margin-top: 20px;
  width: 100px;
