@@ -92,7 +92,6 @@ function loadLoggedInUser (username) {
         <h2>My Articles</h2>
             <div id="articles">
         <center>Loading articles...</center>
-        </div> 
     `;
 }
 
