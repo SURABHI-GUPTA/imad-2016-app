@@ -197,6 +197,10 @@ body{
     font-size: 95%;
 }
 
+.side{
+    height: 80px;
+}
+
 .mainHeader img{
     width: 100%;
 }
