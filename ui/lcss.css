@@ -2,7 +2,7 @@ html, body {
  width: 100%;
  height: 100%;
  font-family: "Helvetica Neue", Helvetica, sans-serif;
- color:  #666;
+ color:  #CF5C3F;
  -webkit-font-smoothing: antialiased;
  background: #efebeb;
   
@@ -109,7 +109,7 @@ input[type=submit] {
  font-size: 14px;
  font-weight: bold;
  color: #fff;
- background-color: #666; /*IE fallback*/
+ background-color: #CF5C3F; /*IE fallback*/
  -webkit-gradient: linear, left top, left bottom, from(#acd6ef), to(#6ec2e8);
  -moz-linear-gradient: top left 90deg, #acd6ef 0, #6ec2e8 100%;
  -linear-gradient: top left 90deg, #acd6ef 0, #6ec2e8 100%;
