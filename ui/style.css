@@ -225,10 +225,12 @@ body{
 .mainHeader nav ul{
     text-align:center;
     padding-left:0;
+    display:table;
 }
 
 .mainHeader nav ul li{
     text-align:center;
+    display:table-cell;
     width: 19%;
     font-size:70%;
 }
