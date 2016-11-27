@@ -1,16 +1,14 @@
-var read=`div id="content">
+var read=`<p>
        Sources said during the meeting chaired by the Congress president Sonia Gandhi, top party leaders were of the view that
                             implementation of demonetisation move along with its alleged leakage to BJP should be questioned
                             in both houses of Parliament.
                              Sources said during the meeting 
                             chaired by the Congress president Sonia Gandhi, top party leaders were of the view that
                             implementation of demonetisation move along with its alleged leakage to BJP should be questioned
-                            in both houses of Parliament.
-                        </div>`;
+                            in both houses of Parliament.</p>
+                        `;
 document.querySelector('button').addEventListener('click', function() {
     document.getElementById('content').innerHTML = read;
-  document.querySelector('#content').style.height= 'auto';
-  this.style.display= 'none';
 });
 
 function loadLoginForm () {
