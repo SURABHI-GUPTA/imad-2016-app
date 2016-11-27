@@ -193,6 +193,11 @@ body{
 .side{
     height: 80px;
 }
+ 
+#Social{
+    width:10%;
+    height:10%;    
+}
 
 .mainHeader img{
     width: 100%;
