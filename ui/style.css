@@ -227,7 +227,7 @@ body{
 }
 
 .mainHeader nav ul li{
-    float:none;
+    text-align:center;
     width: 15%;
     font-size:50%;
 }
