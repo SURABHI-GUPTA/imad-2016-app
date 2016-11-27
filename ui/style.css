@@ -220,12 +220,10 @@ body{
 
 .mainHeader nav{
     text-align:center;
-    height: 40px;
 }
 
 .mainHeader nav ul{
-    text-align:center;
-    padding-left:0;
+    display:inline;
 }
 
 .mainHeader nav ul li{
