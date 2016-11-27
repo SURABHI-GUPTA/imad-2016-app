@@ -99,8 +99,8 @@ app.get('/ui/parlia.png', function (req, res) {
 res.sendFile(path.join(__dirname, 'ui', 'parlia.png'));
 });
 
-app.get('/ui/rg.png', function (req, res) {
-res.sendFile(path.join(__dirname, 'ui', 'rg.png'));
+app.get('/ui/congress.png', function (req, res) {
+res.sendFile(path.join(__dirname, 'ui', 'congress.png'));
 });
 
 app.get('/ui/it.png', function (req, res) {
