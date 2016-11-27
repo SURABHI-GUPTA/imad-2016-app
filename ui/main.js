@@ -8,6 +8,7 @@ var read=`div id="content">
                             in both houses of Parliament.
                         </div>`;
 document.querySelector('button').addEventListener('click', function() {
+    document.getElementById('content').innerHTML = read;
   document.querySelector('#content').style.height= 'auto';
   this.style.display= 'none';
 });
