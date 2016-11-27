@@ -223,7 +223,8 @@ body{
 }
 
 .mainHeader nav ul{
-    display:inline;
+    text-align:center;
+    padding-left:0;
 }
 
 .mainHeader nav ul li{
@@ -234,7 +235,8 @@ body{
 
 .mainHeader nav a:link, .mainHeader nav a:visited{
     padding: 10px 25px;
-    display: inline;
+    height: 20px;
+    display: block;
 }
 
 .content{
