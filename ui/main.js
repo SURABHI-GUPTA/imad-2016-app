@@ -1,3 +1,8 @@
+document.querySelector('button').addEventListener('click', function() {
+  document.querySelector('#content').style.height= 'auto';
+  this.style.display= 'none';
+});
+
 function loadLoginForm () {
    var loginHtml = ` 
             <h2> Log In / Sign Up</h2>
