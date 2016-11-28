@@ -184,7 +184,7 @@ function loadArticleForm() {
                   alert('Article could not be created or Article already exist!');
               }
 		  //use this once here
-		  store.value = 'Create Article';
+		  store.value = 'Create';
           }
         };
 	var heading = document.getElementById('heading').value;
