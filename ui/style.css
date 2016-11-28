@@ -212,6 +212,7 @@ body{
 #Social{
     position:absolute;
     top:5%;
+    float:left;
 }
 
 .mainHeader img{
