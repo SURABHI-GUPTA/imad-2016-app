@@ -134,6 +134,7 @@ function loadArticles () {
     request.open('GET', '/get-articles', true);
     request.send(null);
 }
+
 function loadArticleForm() {
 	//added form tag and required attributes
     var articleHtml = `
