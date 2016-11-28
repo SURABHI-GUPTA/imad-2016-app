@@ -11,10 +11,10 @@ html, body {
 #login_area {
  position: fixed;
  text-align: center;
- width: 60%;
+ width: 40%;
  height: 350px;
  top: 43%;
- left: 20%;
+ left: 30%;
  margin-top: -140px;
  margin-left: -170px;
  background: #fff;
