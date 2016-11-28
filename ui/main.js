@@ -5,7 +5,7 @@ var read=`<p>
                              </p>
                         `;
 //document.querySelector('button').addEventListener('click', function() {
-var btn = document.getElementById('btn');
+var btn = document.getElementById('button');
 if (btn) {
 btn.addEventListener('click', function() {
     document.getElementById('content').innerHTML = read;
