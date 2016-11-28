@@ -210,10 +210,8 @@ body{
 }
  
 #Social{
-    width:10%;
-    height:10%; 
-    float: left;
-    display:none;
+    position:absolute;
+    top:3%;
 }
 
 .mainHeader img{
