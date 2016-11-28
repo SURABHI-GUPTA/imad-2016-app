@@ -238,7 +238,7 @@ body{
 }
 
 .mainHeader nav a:link, .mainHeader nav a:visited{
-    padding: 10px 10px 14px 12px;
+    padding: 10px 14px 10px 12px;
     height: 20px;
     display: block;
 }
