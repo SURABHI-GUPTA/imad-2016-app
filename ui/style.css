@@ -213,6 +213,7 @@ body{
     width:10%;
     height:10%; 
     float: left;
+    display:none;
 }
 
 .mainHeader img{
