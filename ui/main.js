@@ -152,7 +152,7 @@ function loadArticles () {
 function loadArticleForm() {
 	//added form tag and required attributes
     var articleHtml = `
-        <h2>Write an Article</h2>
+        <h2>Your Article</h2>
 	<form id="article_form">
         <input type="text" id="heading" placeholder="Heading" required/><br/>
         <input type="text" id="title" placeholder="Title" required/><br/>
@@ -202,3 +202,5 @@ loadLogin();
 
 // Now this is something that we could have directly done on the server-side using templating too!
 loadArticles();
+
+loadArticleForm();
