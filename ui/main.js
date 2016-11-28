@@ -176,7 +176,8 @@ function loadArticleForm() {
 		  article_form.reset();
 		  //now, load the articles dynamically
 		  loadArticles();
-              }else if(request.status === 403){ //for alerting users to register/login to create article
+              }
+              else if(request.status === 403){ //for alerting users to register/login to create article
                 alert('You must Register/Login to create new Article');
 	      } 
               else {
