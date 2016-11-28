@@ -211,7 +211,8 @@ body{
  
 #Social{
     width:10%;
-    height:10%;    
+    height:10%; 
+    float: left;
 }
 
 .mainHeader img{
