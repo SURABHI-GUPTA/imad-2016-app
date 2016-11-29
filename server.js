@@ -129,6 +129,9 @@ app.post('/create-user', function (req, res) {
    
    var username = req.body.username;
    var password = req.body.password;
+   if(!username.trim() || !password.trim()){
+      res.status(400).send('Username or password field blank.');   //Err if blank,tabs and space detected.
+   }else{
    var salt = crypto.randomBytes(128).toString('hex');
    var dbString = hash(password, salt);
    pool.query('INSERT INTO "user" (username, password) VALUES ($1, $2)', [username, dbString], function (err, result) {
@@ -138,6 +141,7 @@ app.post('/create-user', function (req, res) {
           res.send('User successfully created: ' + username);
       }
    });
+   }
 });
 
 app.post('/login', function (req, res) {
