@@ -156,7 +156,7 @@ function loadArticleForm() {
 	<form id="article_form">
         <input type="text" id="heading" placeholder="Heading" required/><br/>
         <input type="text" id="title" placeholder="Title" required/><br/>
-        <input type="text" rows="4" cols="50" id="content" placeholder="Content"/><br/> /><br/>
+        <input type="text" rows="4" cols="50" id="content" placeholder="Content"/><br/>
         <input type="submit" id="save_btn" value="Create" />
  	</form>
         `;
