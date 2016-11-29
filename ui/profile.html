@@ -1,48 +1,94 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>MyProfile</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <style>
-            body{
-                background-image:url(/ui/surabhi.jpg);
-                opacity:0.5;
-                filter: alpha(opacity=50);
-                background-repeat:no-repeat;
-                background-size: 70% 80%;
-            }
-            .abc,.abc1{
-                margin: auto;
-               text-align: center;
-               background-color: #FFF;
-               -moz-border-radius: 5px;
-               -webkit-border-radius: 5px;
-               border-radius: 5px;
-               width: 65%;
-            }
-            h3,h2{
-                color: #CF5C3F;
-            }
+#suru
+ {
+     background-color:rgb(124,120,123);
+     height:80%;
+ }
+ 
+ #suru .subdiv
+ {
+     height:65%;
+     width:80%;
+     background-color:rgb(54,53,54);
+     position:absolute;
+     top:25%;
+     left:10%;
+     border-radius:10px;
+     -moz-box-shadow: 0 0 5px 5px #888;
+     -webkit-box-shadow: 0 0 5px 5px#888;
+     box-shadow: 0 0 5px 5px #888;
+ }
+ 
+ #suru .subdiv .img
+ {
+  position:absolute;
+  top:25%;
+  right:10%;
+ }
+ 
+.address-text {
+    padding: 0;
+}
+.address {
+    padding: 0;
+} 
         </style>
     </head>
-    <body>
-        <div style="text-align: center"><h2>SURABHI GUPTA</h2>
-            <div class="abc"><h3>Personal Details</h3><hr>
-                <p>Name: Surabhi Gupta<br>
-                   Email: surabhi12345@gmail.com<br>
-                   Date of Birth: 23-10-1996<br>
-                   Gender: Female<br>
-                   Mobile Number: 8234765598<br>
-                   Hobbies: Music, Drawing<br>
-                   Interest: Sports
-                </p></div> 
-            <div class="abc1"><h3>Professional Details</h3><hr>
-                <p>Name:<br>
-                   Email:<br>
-                   Date of Birth:<br>
-                   Gender:<br>
-                   Mobile Number:
-                </p></div>
-        </div>
-    </body>
-</html>
+    <body id ="suru">
+        
+        <h1 style="position:absolute;left:10%;top:15%; color:white"><b>My Profile</b></h1>
+        <div class="subdiv">
+        <div class="img"  style="box-shadow: 10px 10px 5px #888888">
+     <img src="/ui/simmi.jpg" >   
+       </div>
+					<ul class="address" style="color:white; position:absolute;top:14%;left:7%">
+					
+					
+					<li>
+							<ul class="address-text">
+								<li><b>NAME</b></li>
+								<li>SIMMI BAJPAI</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>D.O.B</b></li>
+								<li>11-01-1996</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>PHONE </b></li>
+								<li>+917524003740</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>ADDRESS </b></li>
+								<li>35 KHA Nagar Palika Colony Raebareli.</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>E-MAIL </b></li>
+								<li><a href="mailto:madhubajpai111@mail.com"> madhubajpai111@example.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>WEBSITE </b></li>
+								<li><a href="http://madhu-bajpai.imad.hasura-app.io/ui/profile.html">www.myprofile.com</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+
+						
+							
+				</div>
+				</body>
+				</html>
+
