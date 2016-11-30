@@ -291,7 +291,7 @@ res.status(403).send('Register/Login to create new Article');
 }
 });
 
-var counter = 0;
+var counter = 100;
 app.get('/counter',function(req,res){
     counter = counter+1;
    res.send(counter.toString()); 
