@@ -144,6 +144,23 @@ app.post('/create-user', function (req, res) {
    }
 });
 
+app.post('/create-article', function (req, res) {
+if (req.session && req.session.auth && req.session.auth.userId) {
+var title = req.body.title;
+var heading = req.body.heading;
+var content = req.body.content;
+pool.query('INSERT INTO "article" (title, heading, content) VALUES ($1, $2, $3)', [title, heading, content], function (err, result) {
+if (err) {
+res.status(500).send(err.toString());
+} else {
+res.send('Article successfully created: '+ heading);
+}
+});
+}else{
+res.status(403).send('Register/Login to create new Article');
+}
+});
+
 app.post('/login', function (req, res) {
    var username = req.body.username;
    var password = req.body.password;
