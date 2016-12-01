@@ -169,4 +169,3 @@ function loadArticles () {
 getCounter();
 loadLogin();
 loadArticles();
-loadArticleForm();
