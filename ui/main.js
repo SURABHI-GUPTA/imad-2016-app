@@ -174,7 +174,7 @@ function loadArticleForm() {
         <input type="text" id="heading" placeholder="Heading" required/><br/>
         <input type="text" id="title" placeholder="Title" required/><br/>
         <textarea rows="4" cols="50" id="content" placeholder="Content" required></textarea><br/>
-        <input type="submit" id="save_btn" value="Create Article" />
+        <input type="submit" id="save_btn" value="Create" />
  	</form>
         `;
         document.getElementById('article_area').innerHTML = articleHtml;
@@ -201,7 +201,7 @@ function loadArticleForm() {
                   alert('Article could not be created or Article already exist!');
               }
 		  //use this once here
-		  store.value = 'Create Article';
+		  store.value = 'Create';
           }
         };
 	var heading = document.getElementById('heading').value;
