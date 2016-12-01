@@ -283,7 +283,7 @@ pool.query('INSERT INTO "article" (title, heading, content) VALUES ($1, $2, $3)'
 if (err) {
 res.status(500).send(err.toString());
 } else {
-res.send('Article successfully created: '+ heading);
+res.status(200).send('Article successfully created: '+ heading);
 }
 });
 }else{
