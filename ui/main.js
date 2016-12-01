@@ -212,6 +212,8 @@ function loadArticleForm() {
         request.send(JSON.stringify({heading:heading, title:title , content:content}));  
         store.value = 'Creating...';
     };
+    request.open('POST', '/create-article', true);
+    request.send(null);
 }
 
 
