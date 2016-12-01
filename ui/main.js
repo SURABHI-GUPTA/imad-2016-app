@@ -215,6 +215,7 @@ function loadArticleForm() {
     };
 }
 
+getCounter();
 loadLogin();
 loadArticles();
 loadArticleForm();
