@@ -279,7 +279,7 @@ if (req.session && req.session.auth && req.session.auth.userId) {
 var title = req.body.title;
 var heading = req.body.heading;
 var content = req.body.content;
-pool.query('INSERT INTO "article" (title,heading, content) VALUES ($1, $2, $3)', [title, heading, content], function (err, result) {
+pool.query('INSERT INTO "article" (title, date, heading, content) VALUES ($1, now(), $2, $3)', [title, heading, content], function (err, result) {
 if (err) {
 res.status(500).send(err.toString());
 } else {
